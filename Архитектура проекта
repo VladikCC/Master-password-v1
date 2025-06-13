@@ -1,0 +1,14 @@
+ILY/
+├── main.go          1) Точка входа
+├── crypto/
+│   ├── encrypt.go   2) Шифрование/дешифрование
+│   └── keygen.go    3) Генерация ключа из пароля
+├── database/
+│   └── db.go        4) Работа с SQLite
+└── cmd/
+    └── root.go      5) CLI-команды
+    
+    
+ILYmain/
+├── main.go          1) Точка входа
+├── auth.go          2) Регистрация/вход
